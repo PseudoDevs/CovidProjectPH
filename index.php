@@ -1,3 +1,10 @@
+<?php
+
+
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,13 +12,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Corella</title>
+    <title>Covid-19 Project | PH & Global Cases</title>
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon.png">
-    <link rel="stylesheet" href="./vendor/nice-select/css/nice-select.css">
-    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.theme.default.css">
-    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="./vendor/magnific-popup/magnific-popup.min.css">
+    <link rel="stylesheet" href="vendor/nice-select/css/nice-select.css">
+    <link rel="stylesheet" href="vendor/owl-carousel/css/owl.theme.default.css">
+    <link rel="stylesheet" href="vendor/owl-carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.min.css">
     <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -26,8 +33,7 @@
                     <div class="col-xl-12">
                         <div class="navigation">
                             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                                <a class="navbar-brand" href="index.php"><img src="./images/logo.png" alt=""
-                                        class="img-fluid"></a>
+                                <a class="navbar-brand" href="index.php">Covid-19 Project</a>
                                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                                     data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
                                     aria-expanded="false" aria-label="Toggle navigation">
