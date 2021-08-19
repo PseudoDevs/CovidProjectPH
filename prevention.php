@@ -175,7 +175,7 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                         <div class="copyright">
-                            <p>© Copyright  <?php echo date("Y"); ?> <a href="<?php echo $actual_link; ?>">Covid Project PH</a> I All Rights Reserved</p>
+                        <p>© Copyright  <?php echo date("Y"); ?> <a href="<?php echo $actual_link; ?>">Covid Project PH</a> | John Lester Legaspi</p>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
