@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="vendor/owl-carousel/css/owl.carousel.min.css">
     <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.min.css">
     <!-- Custom Stylesheet -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
