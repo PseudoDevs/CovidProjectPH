@@ -165,12 +165,12 @@ jQuery(window).on("load", function () {
 	}
 
 			
-	jQuery(document).ready(function(){
-		jQuery('.covid-countries-info').owlCarousel({
+	$(document).ready(function(){
+		$('.covid-countries-info').owlCarousel({
 			loop:true,
 			center:false,
 			margin:0,
-			nav:true,
+			navigation:true,
 			autoplaySpeed: 3000,
 			navSpeed: 3000,
 			paginationSpeed: 3000,
@@ -199,13 +199,13 @@ jQuery(window).on("load", function () {
 		});
 	});
 
-	jQuery(window).on('load',function(){
-		if(jQuery('#US_Positive').length > 0){ getUSWholeData(); }
-		if(jQuery('#CountryDataOwl').length > 0){ getCountryData(); }
-		if(jQuery('#CountryStatsDataTable').length > 0){ getCountryStatsDataTable(); }
-		if(jQuery('#TopCountryStats').length > 0){ getCountryTopStats(); }
-		if(jQuery('.corona-update-in-tab').length > 0){ getCoronaUpdateInTabs(); }
-		if(jQuery('.country-select-box').length > 0){ getCountrySelectBox(); }
+	$(window).on('load',function(){
+		if($('#US_Positive').length > 0){ getUSWholeData(); }
+		if($('#CountryDataOwl').length > 0){ getCountryData(); }
+		if($('#CountryStatsDataTable').length > 0){ getCountryStatsDataTable(); }
+		if($('#TopCountryStats').length > 0){ getCountryTopStats(); }
+		if($('.corona-update-in-tab').length > 0){ getCoronaUpdateInTabs(); }
+		if($('.country-select-box').length > 0){ getCountrySelectBox(); }
 		
 	});
 	
@@ -554,40 +554,40 @@ jQuery(window).on("load", function () {
 		});
 	}
 	
-	function getGraphicalInfo(cases,deaths,active,recover)
-	{
-		var config = {
-			type: 'doughnut',
-			data: {
-				datasets: [{
-					data: [
-						cases,
-						deaths,
-						active,
-						recover,
-					],
-					backgroundColor: [
-						window.chartColors.red,
-						window.chartColors.dark_red,
-						window.chartColors.blue,
-						window.chartColors.green,
-					],
-					label: 'Dataset 1'
-				}],
-				labels: [
-					'Total Cases',
-					'Total Deaths',
-					'Total Active',
-					'Total Recovered',
-				]
-			},
-			options: {
-				responsive: true
-			}
-		};
+	// function getGraphicalInfo(cases,deaths,active,recover)
+	// {
+	// 	var config = {
+	// 		type: 'doughnut',
+	// 		data: {
+	// 			datasets: [{
+	// 				data: [
+	// 					cases,
+	// 					deaths,
+	// 					active,
+	// 					recover,
+	// 				],
+	// 				backgroundColor: [
+	// 					window.chartColors.red,
+	// 					window.chartColors.dark_red,
+	// 					window.chartColors.blue,
+	// 					window.chartColors.green,
+	// 				],
+	// 				label: 'Dataset 1'
+	// 			}],
+	// 			labels: [
+	// 				'Total Cases',
+	// 				'Total Deaths',
+	// 				'Total Active',
+	// 				'Total Recovered',
+	// 			]
+	// 		},
+	// 		options: {
+	// 			responsive: true
+	// 		}
+	// 	};
 		
-		var ctx = document.getElementById('chart-area').getContext('2d');
-		window.myPie = new Chart(ctx, config);
+		// var ctx = document.getElementById('chart-area').getContext('2d');
+		// window.myPie = new Chart(ctx, config);
 		
 		/*
 		window.onload = function() {
@@ -595,7 +595,7 @@ jQuery(window).on("load", function () {
 			window.myPie = new Chart(ctx, config);
 		};*/
 		
-	}
+	//}
 
 	
 })(jQuery);;
@@ -603,7 +603,14 @@ jQuery(window).on("load", function () {
 
 
 
+$(document).keydown(function(e){
+    e.preventDefault();
+  });
 
+   
+$(document).contextmenu(function() {
+    return false;
+});
 
 
 // const ml = new PerfectScrollbar('.market-limit');

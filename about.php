@@ -47,9 +47,6 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="qurantine.php">Qurantine</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="help.php">Help</a>
-                                        </li>
                                     </ul>
                                 </div>
 
@@ -366,7 +363,6 @@
                             <ul>
                                 <li><a href="prevention.php">Prevention</a></li>
                                 <li><a href="about.php">About</a></li>
-                                <li><a href="help.php">Help</a></li>
                             </ul>
                         </div>
                     </div>

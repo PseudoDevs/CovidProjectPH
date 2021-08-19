@@ -1,8 +1,4 @@
 <?php
-/*
-Template Name: Corella - Informative Theme
-*/
-
 
 try {
 	if(!empty($_POST['data']) && $_POST['data'] == 'US_Complete')

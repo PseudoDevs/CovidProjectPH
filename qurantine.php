@@ -33,9 +33,6 @@ include 'includes/header.php';
                                         <li class="nav-item">
                                             <a class="nav-link" href="qurantine.php">Qurantine</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="help.php">Help</a>
-                                        </li>
                                     </ul>
                                 </div>
 
@@ -304,116 +301,6 @@ include 'includes/header.php';
             </div>
         </div>
 
-        <div class="health-authorities section-padding">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-6">
-                        <div class="section-title text-center">
-                            <h2>Public health authorities</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="table-responsive">
-                                    <table class="table table-bordered">
-                                        <thead>
-                                            <tr>
-                                                <th>PROVINCES AND TERRITORIES</th>
-                                                <th>TELEPHONE NUMBER</th>
-                                                <th>WEBSITE</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>
-                                                    British Columbia
-                                                </td>
-                                                <td>811</td>
-                                                <td><a href="javascript:void(0)">www.example.com</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    British Columbia
-                                                </td>
-                                                <td>811</td>
-                                                <td><a href="javascript:void(0)">www.example.com</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    British Columbia
-                                                </td>
-                                                <td>811</td>
-                                                <td><a href="javascript:void(0)">www.example.com</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    British Columbia
-                                                </td>
-                                                <td>811</td>
-                                                <td><a href="javascript:void(0)">www.example.com</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    British Columbia
-                                                </td>
-                                                <td>811</td>
-                                                <td><a href="javascript:void(0)">www.example.com</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    British Columbia
-                                                </td>
-                                                <td>811</td>
-                                                <td><a href="javascript:void(0)">www.example.com</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    British Columbia
-                                                </td>
-                                                <td>811</td>
-                                                <td><a href="javascript:void(0)">www.example.com</a></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="cta section-padding bg-light">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="cta-content">
-                            <h2>FOR MORE INFORMATION ON CORONAVIRUS</h2>
-                            <div class="row justify-content-center">
-                                <div class="col-xl-4 col-lg-6 col-md-6">
-                                    <div class="cta-call">
-                                        <span><i class="mdi mdi-phone"></i></span>
-                                        +1234567890
-                                    </div>
-                                </div>
-                                <div class="col-xl-4 col-lg-6 col-md-6">
-                                    <div class="cta-call">
-                                        <span><i class="mdi mdi-web"></i></span>
-                                        <a href="javascript:void(0)">
-                                            www.example.com
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <div class="bottom section-padding">
             <div class="container">
                 <div class="row">
@@ -432,7 +319,6 @@ include 'includes/header.php';
                             <ul>
                                 <li><a href="prevention.php">Prevention</a></li>
                                 <li><a href="about.php">About</a></li>
-                                <li><a href="help.php">Help</a></li>
                             </ul>
                         </div>
                     </div>
