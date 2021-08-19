@@ -434,10 +434,11 @@
 
 
 
-    <script src="./js/global.js"></script>
-    <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <?php
 
-    <script src="./js/scripts.js"></script>
+include 'includes/footer.php';
+
+?>
 </body>
 
 </html>
