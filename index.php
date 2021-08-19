@@ -506,13 +506,13 @@ $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 
 
     <script src="js/global.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="vendor/owl-carousel/js/owl.carousel.min.js"></script>
+    <script src="vendorx/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendorx/owl-carousel/js/owl.carousel.min.js"></script>
     <script src="js/plugins/owl-carousel-init.js"></script>
-	<script src="vendor/magnific-popup/magnific-popup.js"></script>
+	<script src="vendorx/magnific-popup/magnific-popup.js"></script>
     <script src="js/scripts.js"></script>
-    <script src="vendor/particles/particles.js"></script>
-    <script src="vendor/particles/particles-app.js"></script>
+    <script src="vendorx/particles/particles.js"></script>
+    <script src="vendorx/particles/particles-app.js"></script>
 </body>
 
 </html>
