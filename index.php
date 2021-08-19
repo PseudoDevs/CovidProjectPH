@@ -2,6 +2,9 @@
 
 $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 
+    $alert_url = 'https://disease.sh/v3/covid-19/countries/philippines';
+    $alert_json = file_get_contents($alert_url);
+    $alert_obj = json_decode($alert_json, true);
 
 ?>
 
@@ -61,15 +64,15 @@ $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 						<div class="row count-miter">
 							<div class="col-4">
 								<span class="count-title">America CASES</span>
-								<h3 class="count-box worldwide" id="US_Positive">Loading..</h3>
+								<h3 class="count-box worldwide" id=""><?php echo number_format($alert_obj['cases']); ?></h3>
 							</div>
 							<div class="col-4">
 								<span class="count-title">DEATHS</span>
-								<h3 class="count-box deaths" id="US_Death">Loading..</h3>
+								<h3 class="count-box deaths" id=""><?php echo number_format($alert_obj['deaths']); ?></h3>
 							</div>
 							<div class="col-4">
 								<span class="count-title">RECOVERED</span>
-								<h3 class="count-box recovered" id="US_Recovered">Loading..</h3>
+								<h3 class="count-box recovered" id=""><?php echo number_format($alert_obj['recovered']); ?></h3>
 							</div>
 						</div>
                     </div>
