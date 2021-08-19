@@ -392,92 +392,33 @@ $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
                 </div>
             </div>
         </div>
-		<div class="cta section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="cta-content">
-                            <h2>FOR MORE INFORMATION ON CORONAVIRUS</h2>
-                            <div class="row justify-content-center">
-                                <div class="col-xl-4 col-lg-6 col-md-6">
-                                    <div class="cta-call">
-                                        <span><i class="mdi mdi-phone"></i></span>
-                                        +1234567890
-                                    </div>
-                                </div>
-                                <div class="col-xl-4 col-lg-6 col-md-6">
-                                    <div class="cta-call">
-                                        <span><i class="mdi mdi-web"></i></span>
-                                        <a href="javascript:void(0)">
-                                            www.example.com
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <div class="bottom section-padding">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 col-md-3 col-sm-8">
                         <div class="bottom-logo">
-                            <img class="pb-3" src="./images/logo-white.png" alt="">
+                        <h2 class="text-white"> COVID-19 PROJECT </h2>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+<p>Human coronaviruses are common and are
+    typically associated with mild illnesses,
+    similar to the common cold.</p>
                         </div>
                     </div>
                     <div class="col-xl-2 col-lg-2 col-md-2 col-sm-4">
                         <div class="bottom-widget">
                             <h4 class="widget-title">QUICK LINK</h4>
                             <ul>
-                                <li><a href="javascript:void(0)">Prevention</a></li>
-                                <li><a href="javascript:void(0)">Qurantine</a></li>
-                                <li><a href="javascript:void(0)">About</a></li>
-                                <li><a href="javascript:void(0)">Help</a></li>
+                                <li><a href="prevention.php">Prevention</a></li>
+                                <li><a href="about.php">About</a></li>
+                                <li><a href="help.php">Help</a></li>
                             </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4">
-                        <div class="bottom-widget">
-                            <h4 class="widget-title">Important LINK</h4>
-                            <ul>
-                                <li><a href="javascript:void(0)">Hand Wash</a></li>
-                                <li><a href="javascript:void(0)">Social Distance</a></li>
-                                <li><a href="javascript:void(0)">Isolate</a></li>
-                                <li><a href="javascript:void(0)">Difference</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-8">
-                        <div class="bottom-widget">
-                            <h4 class="widget-title">Helpful LINK</h4>
-                            <div class="row">
-                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                                    <ul>
-                                        <li><a href="javascript:void(0)">Preparation</a></li>
-                                        <li><a href="javascript:void(0)">Clean</a></li>
-                                        <li><a href="javascript:void(0)">WHO Website</a></li>
-                                        <li><a href="javascript:void(0)">CDC Website</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                                    <ul>
-                                        <li><a href="javascript:void(0)">Harvard Health</a></li>
-                                        <li><a href="javascript:void(0)">NHS Website</a></li>
-                                        <li><a href="javascript:void(0)">XMR to BTC</a></li>
-                                        <li><a href="javascript:void(0)">ETC to DASH</a></li>
-                                    </ul>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
 
 
         <div class="footer">

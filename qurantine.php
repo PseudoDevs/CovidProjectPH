@@ -419,54 +419,21 @@ include 'includes/header.php';
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 col-md-3 col-sm-8">
                         <div class="bottom-logo">
-                            <img class="pb-3" src="./images/logo-white.png" alt="">
+                        <h2 class="text-white"> COVID-19 PROJECT </h2>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+<p>Human coronaviruses are common and are
+    typically associated with mild illnesses,
+    similar to the common cold.</p>
                         </div>
                     </div>
                     <div class="col-xl-2 col-lg-2 col-md-2 col-sm-4">
                         <div class="bottom-widget">
                             <h4 class="widget-title">QUICK LINK</h4>
                             <ul>
-                                <li><a href="javascript:void(0)">Prevention</a></li>
-                                <li><a href="javascript:void(0)">Qurantine</a></li>
-                                <li><a href="javascript:void(0)">About</a></li>
-                                <li><a href="javascript:void(0)">Help</a></li>
+                                <li><a href="prevention.php">Prevention</a></li>
+                                <li><a href="about.php">About</a></li>
+                                <li><a href="help.php">Help</a></li>
                             </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4">
-                        <div class="bottom-widget">
-                            <h4 class="widget-title">Important LINK</h4>
-                            <ul>
-                                <li><a href="javascript:void(0)">Hand Wash</a></li>
-                                <li><a href="javascript:void(0)">Social Distance</a></li>
-                                <li><a href="javascript:void(0)">Isolate</a></li>
-                                <li><a href="javascript:void(0)">Difference</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-8">
-                        <div class="bottom-widget">
-                            <h4 class="widget-title">Helpful LINK</h4>
-                            <div class="row">
-                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                                    <ul>
-                                        <li><a href="javascript:void(0)">Preparation</a></li>
-                                        <li><a href="javascript:void(0)">Clean</a></li>
-                                        <li><a href="javascript:void(0)">WHO Website</a></li>
-                                        <li><a href="javascript:void(0)">CDC Website</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                                    <ul>
-                                        <li><a href="javascript:void(0)">Harvard Health</a></li>
-                                        <li><a href="javascript:void(0)">NHS Website</a></li>
-                                        <li><a href="javascript:void(0)">XMR to BTC</a></li>
-                                        <li><a href="javascript:void(0)">ETC to DASH</a></li>
-                                    </ul>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -474,21 +441,21 @@ include 'includes/header.php';
         </div>
 
 
+
         <div class="footer">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                         <div class="copyright">
-                            <p>© Copyright 2020 <a href="javascript:void(0)">Corella</a> I All Rights Reserved</p>
+                            <p>© Copyright  <?php echo date("Y"); ?> <a href="<?php echo $actual_link; ?>">Covid Project PH</a> I All Rights Reserved</p>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                         <div class="footer-social">
                             <ul>
-                                <li><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="javascript:void(0)"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="javascript:void(0)"><i class="fa fa-youtube"></i></a></li>
+                                <li><a href="https://facebook.com/IamPseudoX"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/jllegaspi/"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCW-erjgWL_2iBtHaexOVaBg"><i class="fa fa-youtube"></i></a></li>
                             </ul>
                         </div>
                     </div>
