@@ -522,7 +522,6 @@
 
     <script src="js/global.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
     <script src="vendor/owl-carousel/js/owl.carousel.min.js"></script>
     <script src="js/plugins/owl-carousel-init.js"></script>
 	<script src="vendor/magnific-popup/magnific-popup.js"></script>
