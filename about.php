@@ -27,14 +27,13 @@
     </div>
 
     <div id="main-wrapper">
-        <div class="header">
+    <div class="header">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="navigation">
                             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                                <a class="navbar-brand" href="index.html"><img src="./images/logo.png" alt=""
-                                        class="img-fluid"></a>
+                                <a class="navbar-brand" href="index.php">Covid-19 Project</a>
                                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                                     data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
                                     aria-expanded="false" aria-label="Toggle navigation">
@@ -42,55 +41,20 @@
                                 </button>
                                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                                     <ul class="navbar-nav">
-										<li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="javascript:void(0);" data-toggle="dropdown">Home</a>
-											<div class="dropdown-menu">
-                                                <a class="dropdown-item" href="./index.html">01 Home</a>
-                                                <a class="dropdown-item" href="./index-2.html">02 Home</a>
-                                                <a class="dropdown-item" href="./index-3.html">03 Home</a>
-                                                <a class="dropdown-item" href="./index-onepage.html">01 Home Onepage</a>
-                                                <a class="dropdown-item" href="./index-onepage-2.html">02 Home Onepage</a>
-                                                <a class="dropdown-item" href="./index-onepage-3.html">03 Home Onepage</a>
-                                            </div>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="prevention.php">Prevention</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="./prevention.html">Prevention</a>
+                                            <a class="nav-link" href="qurantine.php">Qurantine</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="./qurantine.html">Qurantine</a>
-                                        </li>
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown">Pages
-                                            </a>
-                                            <div class="dropdown-menu">
-												<a class="dropdown-item" href="./about.html">About</a>
-                                                <a class="dropdown-item" href="./hand-wash.html">Hand Wash</a>
-                                                <a class="dropdown-item" href="./social-distance.html">Social Distance</a>
-                                                <a class="dropdown-item" href="./clean.html">Clean</a>
-                                                <a class="dropdown-item" href="./isolate.html">Isolate</a>
-                                                <a class="dropdown-item" href="./difference.html">Difference</a>
-                                                <a class="dropdown-item" href="./prepare.html">Preparation</a>
-                                            </div>
-                                        </li>
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown">Stats
-                                            </a>
-                                            <div class="dropdown-menu">
-                                                <a class="dropdown-item" href="./stats.html">World Wide Stats </a>
-                                                <a class="dropdown-item" href="./stats2.html">Country Wise State</a>
-                                                <a class="dropdown-item" href="./stats3.html">Covid-19 Updates - Tiles</a>
-                                                <a class="dropdown-item" href="./stats4.html">Country Wise - Tabs</a>
-                                                <a class="dropdown-item" href="./stats5.html">Covid 19 Tracker</a>
-                                            </div>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="help.html">Help</a>
+                                            <a class="nav-link" href="help.php">Help</a>
                                         </li>
                                     </ul>
                                 </div>
 
                                 <div class="signin-btn">
-                                    <a class="btn btn-primary" href="stats2.html">COVID-19 Tracker</a>
+                                    <a class="btn btn-primary" href="stats.php">COVID-19 Tracker</a>
                                 </div>
                             </nav>
                         </div>
