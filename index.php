@@ -1,6 +1,6 @@
 <?php
 
-
+$actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 
 
 ?>
@@ -499,16 +499,15 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                         <div class="copyright">
-                            <p>© Copyright  <?php echo date("Y"); ?> <a href="javascript:void(0)">Covid Project PH</a> I All Rights Reserved</p>
+                            <p>© Copyright  <?php echo date("Y"); ?> <a href="<?php echo $actual_link; ?>">Covid Project PH</a> I All Rights Reserved</p>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                         <div class="footer-social">
                             <ul>
-                                <li><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="javascript:void(0)"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="javascript:void(0)"><i class="fa fa-youtube"></i></a></li>
+                                <li><a href="https://facebook.com/IamPseudoX"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/jllegaspi/"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCW-erjgWL_2iBtHaexOVaBg"><i class="fa fa-youtube"></i></a></li>
                             </ul>
                         </div>
                     </div>
