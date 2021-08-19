@@ -141,9 +141,9 @@ include 'includes/header.php';
                     </div>
                 </div>
             </div>
-            <div id="globalStateRow" class="all-country-stat d-flex">
+            <!-- <div id="globalStateRow" class="all-country-stat d-flex">
 
-            </div>
+            </div> -->
         </div>
     </div>
 
